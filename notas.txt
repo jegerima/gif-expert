@@ -1,0 +1,7 @@
+useEffect se usa para lanzar efectos secundarios
+Si las dependencias son vacias, solo se va a disparar la primera vez que se crea el componente
+
+El Modo Stricto permite que react valide los lifecycles
+Es normal que se ejecuten dos veces algunas situaciones en React.StrictMode
+
+El useEffect no le gusta usar promesas. Requiere una funcion
