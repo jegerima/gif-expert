@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { AddCategory, GifGrid } from './components';
-import './GifExpertApp.css'
 
 export const GifExpertApp = () => {
 

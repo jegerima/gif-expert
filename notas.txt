@@ -5,3 +5,13 @@ El Modo Stricto permite que react valide los lifecycles
 Es normal que se ejecuten dos veces algunas situaciones en React.StrictMode
 
 El useEffect no le gusta usar promesas. Requiere una funcion
+
+Configurar el testing
+https://gist.github.com/Klerith/ca7e57fae3c9ab92ad08baadc6c26177
+# npm add --dev jest babel-jest @babel/preset-env @babel/preset-react 
+# npm add --dev @testing-library/react @types/jest jest-environment-jsdom
+# npm add --dev whatwg-fetch
+Modificar el .eslintrc.cjs
+# "env": { "jest": true }
+
+jest.fn() es un Mock de una funcion y me permite manipularla
